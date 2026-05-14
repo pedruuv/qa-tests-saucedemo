@@ -1,4 +1,12 @@
-Caso de Teste 1: Login com credenciais válidas
+# Projeto QA – Testes Manuais (SauceDemo)
+
+## 📌 Descrição
+Projeto de testes manuais realizado na aplicação SauceDemo, com foco na validação de funcionalidades como login, carrinho e checkout.
+
+## 🧪 Casos de Teste
+
+
+### ✅ Login válido
 
 Passos:
 1. Acessar https://www.saucedemo.com/
@@ -15,7 +23,7 @@ Resultado obtido:
 Status:
 - Passou
 
-Caso de Teste 2: Login com campos vazios
+### ✅ Login com campos vazios
 
 Passos:
 1. Acessar página
@@ -31,7 +39,7 @@ Resultado obtido:
 Status:
 - Passou
 
-Caso de Teste 3: Fluxo de carrinho
+### ✅ Fluxo do carrinho
 
 Passos:
 1. Realizar login
@@ -49,7 +57,8 @@ Resultado obtido:
 Status:
 - Passou
 
-Caso de Teste 4: Persistência do carrinho
+
+### ✅ Persistência do carrinho
 
 Passos:
 1. Adicionar item ao carrinho
@@ -65,7 +74,9 @@ Resultado obtido:
 Status:
 - Passou
 
-Bug 1: Mensagem de erro com layout comprimido
+## 🐞 Bugs encontrados
+
+### 🔹 Bug 1 – Mensagem de erro com layout comprimido
 
 Tipo: UI / UX
 
@@ -79,7 +90,7 @@ Resultado:
 Impacto:
 - Dificulta leitura para o usuário
 
-Bug 2: Cursor não indica elemento clicável no carrinho
+### 🔹 Bug 2 – Cursor não indica elemento clicável
 
 Tipo: UI / UX
 
@@ -93,7 +104,7 @@ Resultado:
 Impacto:
 - Pode causar confusão sobre interatividade
 
-Bug 3: Navegação inconsistente com botão voltar
+### 🔹 Bug 3 – Botão voltar redireciona para login
 
 Tipo: Navegação
 
@@ -117,7 +128,20 @@ Sugestão:
 Impacto:
 - Melhorar experiência do usuário
 
-Melhoria 2: Controle de quantidade no carrinho
+## 💡 Melhorias sugeridas
+
+### 🔹 Validação de campos no checkout
+
+Descrição:
+- Sistema valida um campo por vez
+
+Sugestão:
+- Exibir todos os erros simultaneamente
+
+Impacto:
+- Melhorar experiência do usuário
+
+### 🔹 Controle de quantidade no carrinho
 
 Descrição:
 - Não é possível adicionar múltiplas unidades do mesmo item
@@ -127,3 +151,6 @@ Sugestão:
 
 Impacto:
 - Melhor experiência de compra
+
+## 🚀 Objetivo
+Praticar testes manuais, identificação de bugs e análise de comportamento do sistema.
