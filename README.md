@@ -3,6 +3,15 @@
 ## 📌 Descrição
 Projeto de testes manuais realizado na aplicação SauceDemo, com foco na validação de funcionalidades como login, carrinho e checkout.
 
+## 📋 Cenários testados
+
+- Login (válido e inválido)
+- Validação de campos obrigatórios
+- Fluxo de carrinho de compras
+- Persistência de dados após refresh
+- Processo de checkout
+- Navegação entre páginas
+
 ## 🧪 Casos de Teste
 
 
